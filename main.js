@@ -1,4 +1,10 @@
 /**
+ * Redirect to your custom 404 page.
+ */
+if (window.location.href.indexOf("404") > -1) {
+    window.location.href = "404.html";
+}
+/**
  * Checks if device is mobile, and redirects the device to mobile.html
  * if device is mobile.
  */
