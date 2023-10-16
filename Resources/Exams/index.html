@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIDATA Exams</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <style>
+        body {
+            font-family: Inter, sans-serif;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        .header img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .datebox {
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .menu {
+            background-color: #555;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #777;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .media-links {
+            display: flex;
+        }
+
+        .media-link-button {
+            background-color: #49d369;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .media-link-button:hover {
+            background-color: #32964a;
+        }
+
+        .discord-button {
+            background-color: #4960d3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .discord-button:hover {
+            background-color: #314194;
+        }
+
+        .media-link-icon {
+            margin-right: 10px;
+        }
+
+        .right-content {
+            flex: 1; /* Allow the right content to take up remaining space */
+            display: flex;
+            justify-content: flex-end; /* Align content to the right */
+            align-items: center;
+        }
+
+        .right-content img{
+            width: 50px;
+        }
+
+        img {
+            width: 176px;
+            height: auto;
+        }
+        /* Featured boxes */
+        .featured-box {
+            display: flex;
+            width: 100%;
+            height: 100px;
+            background-color: #333;
+            border-radius: 20px;
+            color: #fff;
+            padding: 20px;
+            margin: 10px;
+            align-items: center;
+            position: relative;
+        }
+
+        .featured-box a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: transparent;
+        }
+
+        .featured-box img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .featured-box .box-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column; /* Arrange title and description in a column */
+        }
+
+        .featured-box h3 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .featured-box p {
+            font-size: 14px;
+        }
+        .vbox {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .vbox > div {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .box-content {
+            text-align: center;
+        }
+        .filler-div {
+            height: 135px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+
+    <div class="content">
+        <img src="images/logo.png" alt="Logo">
+        <div class="media-links">
+            <a href="https://folk.ntnu.no/mattikj/" class="media-link-button">Home</a>
+            <a href="https://folk.ntnu.no/mattikj/Resources/" class="media-link-button">Resources</a>
+            <a href="https://innsida.ntnu.no/blackboard" class="media-link-button">Blackboard</a>
+        </div>
+        <div class="right-content">
+            <div class="media-links">
+                <a href="https://discord.gg/dfn9QgQx" target="_blank" class="discord-button">
+                    <i class="fab fa-discord media-link-icon"></i> Discord
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="vbox">
+    <div>
+        <h2>Previous exams</h2>
+        <p>Exams for all courses this semester. Click a course to download
+            a zipped file containing the exams.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="featured-boxes">
+        <!-- Featured Box 1 -->
+        <div class="featured-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/9043/9043010.png" alt="Box 1 Image">
+            <div class="box-content">
+                <h3>Computer communication and network programming</h3>
+                <p>Previous exams for Computer communication and network programming</p>
+                <a href="Computer%20communication%20and%20network%20programming.zip"></a>
+            </div>
+        </div>
+
+        <!-- Featured Box 2 -->
+        <div class="featured-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/9043/9043010.png" alt="Box 2 Image">
+            <div class="box-content">
+                <h3>Data Modeling and Database Applications </h3>
+                <p>No available previous exams for this course, but similar exams</p>
+                <a href="https://www.dbsys.info/Databasesystemer/4_Oppgaver/index.html"></a>
+            </div>
+        </div>
+
+        <!-- Featured Box 3 -->
+        <div class="featured-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/9043/9043010.png" alt="Box 3 Image">
+            <div class="box-content">
+                <h3>Algorithms and Data Structures</h3>
+                <p>Previous exams for Algorithms and Data Structures</p>
+                <a href="Algorithms%20and%20Data%20Structures.zip"></a>
+            </div>
+        </div>
+
+
+        <div class="featured-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/9043/9043010.png" alt="Box 3 Image">
+            <div class="box-content">
+                <h3>Statistics</h3>
+                <p>Previous exams for Algorithms and Statistics</p>
+                <a href="Statistics.zip"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="box-content">
+    <img src="https://ntnu.blackboard.com/branding/_1_1/CustomNavigationLogo.png?m=kjpn046f" alt="Box 3 Image">
+    <h3>For studends at NTNU</h3>
+</div>
+
+</body>
+</html>

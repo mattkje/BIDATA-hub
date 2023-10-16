@@ -1,0 +1,49 @@
+/* Style for the tab container */
+.tab-container {
+    display: flex;
+    justify-content: left;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Style for individual tabs */
+.tab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.tab2 {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #555;
+    border: 1px solid #444;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Style for the active tab */
+.tab.active {
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: left;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
